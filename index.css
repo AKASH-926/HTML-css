@@ -174,11 +174,13 @@ font-weight: 500;
     justify-content: center;
     align-items: center;
     gap: 3vh;
-    margin-left: 5%;
-
+    position: absolute;
+    top: 25vh;
+    visibility: hidden;
 }
 .invoice-wrap>table{
     padding: 15%;
+    border-radius: 18px;
 }
 .invoice-wrap>table,tr{
    
@@ -201,4 +203,12 @@ font-weight: 500;
 }
 .font-size-1-5rem{
     font-size: 1.5rem;
+}
+.bg-blue{
+background-color: rgba(243, 255, 252, 0.721);
+}
+.download{
+    font-size: small;
+    font-weight: 500;
+    color: rgb(54, 54, 235);
 }
