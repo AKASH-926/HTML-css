@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="/index.js" defer></script>
+    <link rel="stylesheet" href="/index.css">
+    <title>Payments</title>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <div class="p">
+            <h2 class="p-head">Payment</h2>
+            <p class="p-pro">Complete your pro membership</p>
+            <div class="price-wrap">
+                <p class="amount"> <span class="currency">$</span>899 <span class="usd">USD</span></p>
+                <hr>
+                <div class="perks">
+                    <span><img src="/images/done.png" alt="done">&nbsp;&nbsp;Messaging</span>
+                    <span><img src="/images/done.png" alt="done">&nbsp;&nbsp;Analytics</span>
+                    <span><img src="/images/done.png" alt="done">&nbsp;&nbsp;Support</span>
+                    <span><img src="/images/done.png" alt="done">&nbsp;&nbsp;Discounts</span>
+                </div>
+                <p class="know-more">Know more</p>
+            </div>
+            <div>
+                <label class="label1" for="Pay with card">Pay with card</label><br>
+                <input type="number" placeholder="1234-5678-1234-5689" name="pay with card"
+                    class="card-inp margin-btm-5 margin-top-5">
+            </div>
+            <div>
+                <input type="text" name="expire" placeholder="mm/yy" class="expire">
+                <input type="number" name="cvv" placeholder="CVV" class="cvv">
+            </div>
+            <button class="pay-btun">Make Payment</button>
+        </div>
+        <div class="remove-wrap">
+            <h2>Remove?</h2>
+            <p class="remove-alert">Please confirm the changes, you can't redo this again.</p>
+            <button class="confirm">Confirm</button>
+            <p class="remove-take">Take me back</p>
+        </div>
+        <div class="success-wrap">
+            <div><img src="/images/success.png" alt="success"></div>
+            <h2>Success</h2>
+            <p>Your payment was processed</p>
+        </div>
+
+        <div class="invoice-wrap">
+            <div>
+                <span>Invoice</span>
+                <span>Download</span>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
