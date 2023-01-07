@@ -164,3 +164,41 @@ font-weight: 500;
 .success-wrap>p{
     font-size: 0.6rem;
 }
+
+.invoice-wrap{
+    display: flex;
+    padding: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    margin-left: 5%;
+
+}
+.invoice-wrap>table{
+    padding: 15%;
+}
+.invoice-wrap>table,tr{
+   
+    background-color: white;
+    width: 180%;
+   height: 6vh;
+}
+.text-end{
+    text-align: end;
+}
+.bottom-border{
+    border-bottom: 5px solid black;
+  
+}
+.grey{
+    color: rgb(182, 180, 180);
+}
+.font-600{
+    font-weight: 600;
+}
+.font-size-1-5rem{
+    font-size: 1.5rem;
+}
